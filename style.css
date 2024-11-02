@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: flex-end;
+    background: #ffd5a8;
+    font-size: 20px;
+    user-select: none;
+}
+.main {
+    position: relative;
+    width: clamp(350px, 70vw, 650px);
+    height: calc((clamp(350px, 70vw, 650px)) * 9 / 16);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #00000065;
+    overflow: hidden;
+}
+.main .c {
+    width: 55%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    animation: star 1s;
+}
+.main .back {
+    position: absolute;
+    bottom: 0;
+
+    width: 95%;
+}
+.text {
+    display: flex;
+    flex-flow: column;
+    gap: 1%; /* استخدم وحدات ثابتة */
+    text-align: right;
+    align-items: flex-end;
+    position: absolute;
+    width: 30%;
+    height: 130px;
+    right: 3%;
+    top: 16%;
+    color: #6b3700;
+    animation: start 1s;
+}
+.welcome {
+    font-size: 0.6rem;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: start 1.2s;
+}
+.ab {
+    font-size: 0.2rem;
+
+    animation: start 1.5s;
+}
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    opacity: 1;
+    animation: start 1s;
+}
+@keyframes start {
+    from {
+        transform: translatex(100px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes star {
+    from {
+        transform: translatex(-100px);
+    }
+}
+@media (min-width: 620px) {
+    h2 {
+        font-size: 2rem;
+    }
+    .welcome {
+        font-size: 0.8rem;
+    }
+
+    .text {
+        top: 20%;
+    }
+    .ab {
+        font-size: 0.5rem;
+    }
+}
+@media (min-width: 820px) {
+    h2 {
+        font-size: 3.5rem;
+    }
+    .welcome {
+        font-size: 1rem;
+    }
+}
+.r {
+    text-decoration: none;
+    font-size: 0.4rem;
+    color: #fff;
+    background: #6b3700;
+    padding: 3px;
+    border-radius: 5px;
+    width: 46px;
+    margin: 5px 0 0 50%;
+    transition: 0.5s;
+    box-shadow: 0 2px 5px #00000068;
+}
+.r:hover {
+    background: #c06300c3;
+    box-shadow: 0 2px 9px #00000068;
+    transform: scale(1.05);
+}
+header {
+    position: relative;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 30px;
+    padding: 8px 20px 0;
+    font-size: 0.3rem;
+    color: #6b3700;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header a {
+    position: relative;
+}
+header a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -11%;
+    border-radius: 15px;
+    width: 0px;
+    height: 1px;
+    transition: 0.5s;
+    background: #6b3700;
+}
+header a:hover::before {
+    width: 100%;
+}

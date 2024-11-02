@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0%" y="0%"
+	width="100%" height="100%"
+	viewBox="0 0 16.0 9.0"
+	enable-background="new 0 0 16.0 9.0"
+	xml:space="preserve">
+	<path
+		fill="#FFCB81"
+		stroke="#000000"
+		fill-opacity="0.561"
+		stroke-opacity="0.000"
+		fill-rule="nonzero"
+		stroke-width="0.089999996"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M-0.35,8.86C-1.58,6.01,-2.82,3.15,-2.18,1.69C-1.55,0.23,0.96,0.15,2.77,0.57C4.59,0.99,5.71,1.90,6.89,2.34C8.08,2.79,9.34,2.77,9.94,3.33C10.55,3.89,10.51,5.03,11.46,5.79C12.40,6.56,14.34,6.96,15.22,7.74C16.10,8.52,15.94,9.67,15.77,10.83"/>
+	<path
+		fill="#FFC46D"
+		stroke="#000000"
+		fill-opacity="0.961"
+		stroke-opacity="0.000"
+		fill-rule="nonzero"
+		stroke-width="0.089999996"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M-0.55,9.61C-1.80,6.77,-3.05,3.92,-2.38,2.44C-1.71,0.96,0.88,0.86,2.58,1.32C4.27,1.78,5.08,2.82,6.23,3.35C7.38,3.88,8.87,3.92,9.69,4.41C10.51,4.91,10.65,5.87,11.26,6.55C11.87,7.22,12.95,7.62,13.50,8.50C14.05,9.38,14.08,10.74,14.10,12.10"/>
+</svg>
